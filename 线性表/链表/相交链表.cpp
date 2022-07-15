@@ -12,8 +12,7 @@ public:
         int count = 0;  //换轨次数
         if(headA==nullptr || headB==nullptr)
             return nullptr;
-        ListNode *a = headA;
-        ListNode *b = headB;
+        ListNode *a = headA，*b = headB;
         while(a!=b){
             if(a->next == nullptr){
                 a = headB;
